@@ -23,7 +23,7 @@ def get_regr_slope(x,y):
     num = n*sum(xy) - sum(x)*sum(y)
     denom = n*sum(x_2) - sum(x)**2
     slope = num/denom
-    print("%.3f" % slope)
+    print("%.1f" % slope)
 
 
 get_regr_slope(physics, history)
